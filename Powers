@@ -1,0 +1,12 @@
+
+def get_powers(power_input1 , power_input2):
+
+    if power_input2 == 0:
+
+        power_output = 1
+
+    else:
+        
+        power_output = power_input1 * get_powers(power_input1 , power_input2 - 1)
+
+    return power_output

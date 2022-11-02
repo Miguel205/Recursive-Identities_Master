@@ -1,0 +1,13 @@
+
+def get_2number_product(prod_input1 , prod_input2):
+
+    if prod_input2 == 0:
+
+        prod_output = 0
+
+    else:
+
+        prod_output = prod_input1 + get_2number_product(prod_input1 , prod_input2 - 1)
+
+    return prod_output
+

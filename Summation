@@ -1,0 +1,12 @@
+
+def get_summation(sum_input):
+
+    if sum_input == 0:
+
+        sum_output = 0
+
+    else:
+
+        sum_output = sum_input + get_summation(sum_input - 1)
+
+    return sum_output
