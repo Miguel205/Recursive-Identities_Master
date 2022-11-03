@@ -1,0 +1,12 @@
+
+def get_factorial(fact_input):
+
+    if fact_input == 0:
+
+        fact_output = fact_input
+
+    else:
+
+        fact_output = fact_input * get_factorial(fact_input - 1)
+
+    return fact_output
