@@ -37,14 +37,6 @@ def main():
     else:                                                           #if the input is anything else above 0
         factorial_1(fact, factorial)                                #it will call the factorial_1 function
     
-    restart = input("\nWould You Like To Restart? ")                #setting the restart variable equal to the user input
-    while restart.lower() not in ("yes","no"):                      #while the user input does not equal yes or no
-        print('That is not a valid answer, read the question!')     #it will tell the user to re-read the directions
-        restart = input("Would You Like To Restart? ")              #re-asking the question to the user
-    
-    if restart == "yes":                                            #if the user input equals yes
-        return main()                                               #it will re-run the program
-    
     else:                                                           #otherwise
         print("Ok, Bye")                                            #the program will break
 
