@@ -1,12 +1,12 @@
 
-def get_summation(sum_input):
+def get_summation(sum_input):                                       #states function and defines input
 
-    if sum_input == 0:
+    if sum_input == 0:                                              #checks if input is zero
 
-        sum_output = 0
+        sum_output = 0                                              #sets output to zero
 
-    else:
+    else:                                                           #all other cases
 
-        sum_output = sum_input + get_summation(sum_input - 1)
+        sum_output = sum_input + get_summation(sum_input - 1)       #creates chain of function calls to find output for non-zero input
 
-    return sum_output
+    return sum_output                                               #returns output

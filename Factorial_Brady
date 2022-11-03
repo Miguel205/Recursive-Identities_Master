@@ -1,12 +1,12 @@
 
-def get_factorial(fact_input):
+def get_factorial(fact_input):                                                  #states function and defines variable
 
-    if fact_input == 0:
+    if fact_input == 0:                                                         #checks for zero variable
 
-        fact_output = fact_input
+        fact_output = fact_input                                                #zero variable creats zero output
 
-    else:
+    else:                                                                       #all other positive numbers
 
-        fact_output = fact_input * get_factorial(fact_input - 1)
+        fact_output = fact_input * get_factorial(fact_input - 1)                #finds the factorial using function chain and sets it to output
 
-    return fact_output
+    return fact_output                                                          #retuns output

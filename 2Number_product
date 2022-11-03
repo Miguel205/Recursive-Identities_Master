@@ -1,13 +1,13 @@
 
-def get_2number_product(prod_input1 , prod_input2):
+def get_2number_product(prod_input1 , prod_input2):                                                 #states function and defines variables
 
-    if prod_input2 == 0:
+    if prod_input2 == 0:                                                                            #checks for input 2 zero
 
-        prod_output = 0
+        prod_output = 0                                                                             #sets output to zero for zero input
 
-    else:
+    else:                                                                                           #all other positive inputs
 
-        prod_output = prod_input1 + get_2number_product(prod_input1 , prod_input2 - 1)
+        prod_output = prod_input1 + get_2number_product(prod_input1 , prod_input2 - 1)              #finds product using function chain sets to output
 
-    return prod_output
+    return prod_output                                                                              #returns output
 
