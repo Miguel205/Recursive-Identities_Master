@@ -1,0 +1,12 @@
+
+def get_intrest(intrest_input1 , intrest_input2 , intrest_input3):
+
+    if intrest_input3 == 0:
+
+        intrest_output = intrest_input1
+
+    else:
+
+        intrest_output = (1 + intrest_input2) * get_intrest(intrest_input1 , intrest_input2 , intrest_input3 - 1)
+
+    return intrest_output
