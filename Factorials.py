@@ -1,3 +1,6 @@
+
+
+def factorial_1(fact):                                   
 '''
 
 @author: BShefter25
@@ -11,9 +14,8 @@ Description: Finds the factorial of a number given
 
 '''
 
-
-def factorial_1(fact):                                   
-        
+  
+  
     if fact == 0:                             #if fact is equal to 0
         return 1                              #return 1
     
