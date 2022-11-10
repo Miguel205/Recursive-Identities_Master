@@ -1,6 +1,15 @@
 
 def get_fibonacci(fib_input):                                                       #fuction is called, fib_input in number inputted
 
+    '''
+    Author: Brady Calhoun
+    Date: 11/10/22
+    Bugs: None
+    Description: Runs code to find fibonacci output for any whole number input
+    '''
+
+
+
     if fib_input <= 0:                                                              #checks for specific inputs
 
         fib_output = 0                                                              #sets specific inputs

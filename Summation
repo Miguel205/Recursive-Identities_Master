@@ -1,6 +1,13 @@
 
 def get_summation(sum_input):                                       #states function and defines input
 
+    '''
+    Author: Brady Calhoun
+    Date: 11/10/22
+    Bugs: None
+    Description: Runs code to find the summation of a whole number
+    '''
+
     if sum_input == 0:                                              #checks if input is zero
 
         sum_output = 0                                              #sets output to zero
