@@ -11,8 +11,6 @@ Description: Finds the factorial of a number given
 
 '''
 
-fact = 4
-factorial = 1
 
 def factorial_1(fact):                                   #will run the function if user input is more than 0
         
@@ -22,5 +20,4 @@ def factorial_1(fact):                                   #will run the function 
     else:
         return fact * factorial_1(fact-1)
 
-        
-print(factorial_1(fact))
+       
