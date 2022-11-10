@@ -12,12 +12,12 @@ Description: Finds the factorial of a number given
 '''
 
 
-def factorial_1(fact):                                   #will run the function if user input is more than 0
+def factorial_1(fact):                                   
         
-    if fact == 0:
-        return 1
+    if fact == 0:                             #if fact is equal to 0
+        return 1                              #return 1
     
-    else:
-        return fact * factorial_1(fact-1)
+    else:                                     #otherwise
+        return fact * factorial_1(fact-1)     #return factorial
 
        
