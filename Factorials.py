@@ -1,6 +1,6 @@
 
 
-def factorial_1(fact):                                   
+def get_factorial(fact):                                   
 '''
 
 @author: BShefter25
@@ -20,6 +20,6 @@ Description: Finds the factorial of a number given
         return 1                              #return 1
     
     else:                                     #otherwise
-        return fact * factorial_1(fact-1)     #return factorial
+        return fact * get_factorial(fact-1)     #return factorial
 
        
