@@ -20,6 +20,6 @@ def get_factorial(fact):
         return 1                              #return 1
     
     else:                                     #otherwise
-        return fact * get_factorial(fact-1)     #return factorial
+        return fact * get_factorial(fact-1)   #return factorial
 
        
