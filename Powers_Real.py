@@ -14,6 +14,6 @@ def get_powers(power_input1 , power_input2):                                    
 
     else:                                                                                   #all other positive numbers
         
-        power_output = power_input1 * get_powers(power_input1 , power_input2 - 1)           #finds what the first input is to the power of the second input using function chain
+        power_output = power_input1 * get_powers(power_input1,power_input2 - 1)           #finds what the first input is to the power of the second input using function chain
 
     return power_output                                                                     #returns proper output
