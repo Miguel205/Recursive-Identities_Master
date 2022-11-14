@@ -3,6 +3,8 @@ def product_of_numbers_digits(n):
     @author: mdominguez25
     Created on Nov 11, 2022
     Bugs:
+    receives number
+    returns product of numbers digits
     '''
 
     if n < 10:  # if n < than 10
