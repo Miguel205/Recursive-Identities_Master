@@ -10,6 +10,11 @@ Fibonacci
 
 Sum of a number's digits
 
-Compound Interest Balance
+Product of number’s digits
 
 Product of 2 whole numbers
+
+
+
+
+Compound Interest Balance
